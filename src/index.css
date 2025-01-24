@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+footer {
+  background-color: #242424;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+}
